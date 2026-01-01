@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.page-content {
+    background: #485969;
+    width: 100%;
+    color:#eeee ;
+}
+
+.text-header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text-header h1 {
+  font-weight: 700;
+}
+
+.paragraf {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.paragraf p{
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.teacher-count {
+  padding: 25px;
+  height: 150px;
+  border: 2px black solid;
+}
+
+.acreditation {
+  padding: 25px;
+  height: 150px;
+  border: black 2px solid;
+}
+
+.expertise-program {
+  padding: 27px;
+  height: 150px;
+  border: 2px solid black;
+}
+
+.container {
+  margin-top: 5px;
+  
+}
+
+.copyright {
+  margin-top: 100px;
+}

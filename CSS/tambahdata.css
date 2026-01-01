@@ -1,0 +1,115 @@
+* {
+
+    font-family: "Ubuntu", sans-serif;
+}
+
+div.input-container {
+
+    
+    box-sizing: border-box;
+    background: #10202d;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+
+}
+
+.input-container h2 {
+
+    color: #ccd0cf;
+}
+
+
+.input-container .input-form .btn1 {
+
+    position: relative;
+    margin-top: 16px;
+    gap: 2rem;
+    align-items: center;
+    width: 100px;    
+    height: 40px;
+    text-transform: uppercase;
+    background:transparent;
+    border-radius: 8px;
+    border: 2px solid #495A6A;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #C8CCCF;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 1;
+    
+}
+
+.input-container .input-form .btn2 {
+
+    position: relative;
+    margin-top: 16px;
+    align-items: center;
+    width: 100px;    
+    height: 40px;
+    text-transform: uppercase;
+    background:transparent;
+    border-radius: 8px;
+    border: 2px solid #495A6A;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #C8CCCF;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 1;
+
+}
+
+/* BUTTON STYLE */
+
+.input-container .input-form .btn1::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: 0.5s;
+    background: #495A6A;
+    z-index: -1;    
+}
+
+.input-container .input-form .btn1:hover::before {
+
+    width: 100%;
+}   
+
+.input-container .input-form .btn1:hover {
+
+    color: #10202d;
+}
+.input-container .input-form .btn2::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: 0.5s;
+    background: #495A6A;
+    z-index: -1;    
+}
+
+.input-container .input-form .btn2:hover::before {
+
+    width: 100%;
+}   
+
+.input-container .input-form .btn2:hover {
+
+    color: #10202d;
+}
