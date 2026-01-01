@@ -34,24 +34,6 @@
   font-size: 28px;
 }
 
-.teacher-count {
-  padding: 25px;
-  height: 150px;
-  border: 2px black solid;
-}
-
-.acreditation {
-  padding: 25px;
-  height: 150px;
-  border: black 2px solid;
-}
-
-.expertise-program {
-  padding: 27px;
-  height: 150px;
-  border: 2px solid black;
-}
-
 .container {
   margin-top: 5px;
   
@@ -59,4 +41,20 @@
 
 .copyright {
   margin-top: 100px;
+}
+
+.accreditation-text {
+    position: relative;
+    display: inline-block;
+}
+
+.random-char {
+    display: inline-block;
+    opacity: 0.7;
+    transition: all 0.1s ease;
+}
+
+.final-char {
+    font-weight: bold;
+    transform: scale(1.2);
 }
