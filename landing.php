@@ -1,5 +1,5 @@
 <?php
-    require "session.php"
+require "session.php"
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +46,7 @@
                         <div class="card stats-card h-100 border-0 shadow-sm">
                             <div class="card-body">
                                 <i class="fa-solid fa-chalkboard-user fa-2x text-primary mb-2"></i>
-                                <h3 class="fw-bold display-6 mb-1">100+</h3>
+                                <h3 class="fw-bold display-6 mb-1" data-target="100">0</h3>
                                 <p class="text-muted mb-0">Guru Aktif</p>
                             </div>
                         </div>
@@ -56,7 +56,9 @@
                         <div class="card stats-card h-100 border-0 shadow-sm">
                             <div class="card-body">
                                 <i class="fa-solid fa-award fa-2x text-warning mb-2"></i>
-                                <h3 class="fw-bold display-6 mb-1">A</h3>
+                                <h3 class="fw-bold display-6 mb-1">
+                                    <span class="accreditation-text" data-final="A">-</span>
+                                </h3>
                                 <p class="text-muted mb-0">Akreditasi</p>
                             </div>
                         </div>
@@ -66,7 +68,7 @@
                         <div class="card stats-card h-100 border-0 shadow-sm">
                             <div class="card-body">
                                 <i class="fa-solid fa-school fa-2x text-success mb-2"></i>
-                                <h3 class="fw-bold display-6 mb-1">4</h3>
+                                <h3 class="fw-bold display-6 mb-1" data-target="4">0</h3>
                                 <p class="text-muted mb-0">Program Keahlian</p>
                             </div>
                         </div>
@@ -74,7 +76,7 @@
                 </div>
             </div>
         </section>
-        
+
 
         <footer class="py-4 bg-dark text-white mt-1">
             <div class="container text-center">
@@ -86,5 +88,6 @@
 </body>
 <script src="./js/sidebar.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./js/numbercount.js"></script>
 
 </html>
